@@ -2,7 +2,7 @@ import Link from "next/link"
 import clsx from 'clsx'
 
 interface NavItemProps {
-    children: React.ReactNode,
+    children?: React.ReactNode,
     href: string
     reverse?: boolean
     className?: string
