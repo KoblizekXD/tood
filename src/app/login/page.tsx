@@ -9,7 +9,7 @@ export default function Login() {
           <div className={'ml-[10%] mt-[10%] text-[#36a6f2]'}>
             <Link href='/'>Return home</Link>
           </div>
-          <h1 className={'mb-[5%] mt-[5%] ml-[10%] font-bold text-3xl'}>Login</h1>
+          <h1 className={'mb-[5%] mt-[5%] ml-[10%] font-bold text-3xl'}>Login to Tood</h1>
           <form className={'m-[10%]'}>
             <h2 className={'font-bold text-2xl'}>Email</h2>
             <input className={'my-5 rounded-md w-[100%] h-[120%] bg-gray-800 text-xl p-2'} type="text" name="email" placeholder="john@doe.com" />
